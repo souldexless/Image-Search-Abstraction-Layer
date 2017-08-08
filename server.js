@@ -2,7 +2,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const Bing = require('node-bing-api')({ accKey: 'a0d5e268c56a474c8f3b0ca0cfd3485a' }); //Insert Bing Web Search API key here
-const searchTerm = require('./models/searchTerm'); //Display-model for each search
+const searchTerm = require('../models/searchTerm'); //Display-model for each search
 const express = require('express');
 const app = express();
 
